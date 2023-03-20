@@ -28,7 +28,7 @@ And also a shoutout to [Chu-Tak Li](https://chutakcode.wixsite.com/website) for 
 
       !pip install tensorflow==1.15.0
 
-      You must be using python <=3.7 to install Tensorflow 1.15. See the [pypi release page](https://pypi.org/project/tensorflow/1.15.5/). Python 3.7 would work. Not necessary for Python 2.7. It works with 3.7, but the newer pip is needed, upgrading from pip-20.1.1 to pip-21.0.1 fixed it for me
+You must be using python <=3.7 to install Tensorflow 1.15. See the [pypi release page](https://pypi.org/project/tensorflow/1.15.5/). Python 3.7 would work. Not necessary for Python 2.7. It works with 3.7, but the newer pip is needed, upgrading from `pip-20.1.1` to `pip-21.0.1` fixed it for me
 - Install opencv if you are using Mac, or else it will show "ModuleNotFoundError: No module named 'cv2'"
 
       !pip install opencv-python==4.6.0.66
