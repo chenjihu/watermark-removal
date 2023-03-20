@@ -28,6 +28,8 @@ And also a shoutout to [Chu-Tak Li](https://chutakcode.wixsite.com/website) for 
 
       !pip install tensorflow==1.15.0
 
+You must be using python <=3.7 to install Tensorflow 1.15. See the [pypi release page](https://pypi.org/project/tensorflow/1.15.5/). Python 3.7 would work. Not necessary for Python 2.7. It works with 3.7, but the newer pip is needed, upgrading from pip-20.1.1 to pip-21.0.1 fixed it for me
+
 - Install tensorflow toolkit [neuralgym](https://github.com/JiahuiYu/neuralgym).
 
       !pip install git+https://github.com/JiahuiYu/neuralgym
